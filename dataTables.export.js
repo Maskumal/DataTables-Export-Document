@@ -329,7 +329,7 @@ xmlns:css="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">\
             saveAs(new Blob(["\ufeff", templateHeader + output + templateFooter], {
                 type: 'application/msword;charset='+ charset,
                 encoding: charset
-            }), settings.filename + '.docx');
+            }), settings.filename + '.doc');
         },
         excel: function(dt, config) {
             var settings = {
